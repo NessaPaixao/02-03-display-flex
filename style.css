@@ -12,3 +12,26 @@ align-items: center;
 justify-content: space-around;
 
 }
+
+nav a{
+    color: black;  
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-size: 18pt;
+}
+
+header{
+    width: 100%;
+    height: 570px;
+    background-image: url(netflix.png);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px red solid;
+
+}
